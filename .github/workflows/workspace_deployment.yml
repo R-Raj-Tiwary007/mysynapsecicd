@@ -2,7 +2,7 @@ name: workspace_CI
 
 on:
     push:
-        branches: [ master ]
+        branches: [ workspace_publish ]
         
     workflow_dispatch :
     
