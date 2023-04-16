@@ -23,6 +23,6 @@ jobs:
           resourceGroup: 'SynapseCICD'
           clientId: ${{secrets.CLIENTID}}
           clientSecret:  ${{secrets.SECRET_ID}}
-          subscriptionId: ${{secrets.SUBBSCRIPTION_ID}}
+          subscriptionId: ${{secrets.SUBSCRIPTION_ID}}
           tenantId: ${{secrets.TENANT_ID}}
           DeleteArtifactsNotInTemplate: 'false'
